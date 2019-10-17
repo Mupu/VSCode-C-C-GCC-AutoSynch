@@ -7,7 +7,8 @@
         "command": "python",
         "args": [
           ".vscode/build.py",
-          "Win64_Debug"
+          "configName=Win64_Debug",
+          "lang=CPP"
         ],
         "group": {
           "kind": "build",
@@ -20,7 +21,8 @@
         "command": "python",
         "args": [
           ".vscode/build.py",
-          "Win64_Release"
+          "configName=Win64_Release",
+          "lang=CPP"
         ]
       }
     ]
