@@ -1,4 +1,4 @@
-# VSCode C/C++ GCC AutoSynch
+# VSCode C/C++ Task-AutoSyncher
 
 ## Description
 This script can be used to pass the general settings of c_cpp_properties.json to a task aka your compiler (e.g. GCC). If you want to contribute to extend the functionality you may do so. Just send a PR.
@@ -43,3 +43,7 @@ langStdCmd=YOUR_OPTION - OPTIONAL - overwrites the default tag for the language 
 
 [Pic 3]
 ![alt text](https://i.imgur.com/jZbP2uh.png)
+
+#-----------------------------------------------------------------------------------------------
+# How to pass VSC variables from c_cpp_properties.json to a Task? #742
+# Connect c_cpp configuration with task #1285
