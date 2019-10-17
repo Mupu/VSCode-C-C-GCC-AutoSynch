@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "debug",
+        "type": "shell",
+        "command": "python",
+        "args": [
+          ".vscode/build.py",
+          "Win64_Debug"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      },
+      {
+        "label": "build",
+        "type": "shell",
+        "command": "python",
+        "args": [
+          ".vscode/build.py",
+          "Win64_Release"
+        ]
+      }
+    ]
+  }

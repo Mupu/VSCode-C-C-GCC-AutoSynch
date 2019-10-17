@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "Win64_Debug",
+            "includePath": [
+                "headers/"
+            ],
+            "defines": [
+                "_DEBUG"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "C:\\mingw-w64\\mingw32\\bin\\g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compilerArgs": [
+                "src/main.cpp",
+                "-o out/dhelloworld.exe",
+                "-g"
+            ]
+        },
+        {
+            "name": "Win64_Release",
+            "includePath": [
+                "headers/"
+            ],
+            "defines": [
+                "_RELEASE"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "C:\\mingw-w64\\mingw32\\bin\\g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "compilerArgs": [
+                "src/main.cpp",
+                "-o out/helloworld.exe",
+                "-g"
+            ]
+        }
+    ],
+    "version": 4
+}
