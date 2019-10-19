@@ -11,7 +11,7 @@
             "intelliSenseMode": "gcc-x64",
             "compilerPath": "C:\\mingw-w64\\mingw32\\bin\\g++.exe",
             "cStandard": "c11",
-            "cppStandard": "c++17",
+            "cppStandard": "c++11",
             "compilerArgs": [
                 "src/main.cpp",
                 "-o out/dhelloworld.exe",
