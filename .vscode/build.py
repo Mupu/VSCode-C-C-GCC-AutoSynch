@@ -1,3 +1,5 @@
+# todo add flag for 64bit and 32bit
+
 import sys
 import json
 import os
