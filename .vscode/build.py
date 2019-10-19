@@ -97,7 +97,7 @@ try:
         if compilerArgs is not None:
             for d in defines:
                 cmd += " " + defaultCompilerCmds[compiler]["defineCmd"] + d
-    
+
         # add include paths
         if compilerArgs is not None:
             for i in includes:
@@ -119,6 +119,6 @@ try:
         statusCode = os.system(cmd)
         print("The build process has exited with code " + str(statusCode) + ".")
         exit(statusCode)
-except FileNotFoundError as err:
+except IOError as err:
     print("Error: File c_cpp_properties.json not found. Please install the Microsoft C/C++ extension and try again.")
     exit(1)
